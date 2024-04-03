@@ -10,7 +10,7 @@ const Etablissement =({properties})=>{
     <Card>
          <Card.Content>{nom}</Card.Content>
          { telephone ?
-              <Card.Meta>Téléphone: {telephone}</Card.Meta>
+              <Card.Meta>Téléphoneq: {telephone}</Card.Meta>
               :undefined
          }
          {url?
