@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/roigt/annuaire",
+  "homepage": "https://roigt.github.io/annuaire",
   "name": "annuaire",
   "version": "0.1.0",
   "private": true,
@@ -20,10 +20,10 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -c build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -c build"
   },
   "eslintConfig": {
     "extends": [
